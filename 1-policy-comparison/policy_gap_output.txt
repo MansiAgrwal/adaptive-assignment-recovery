@@ -1,0 +1,2 @@
+balanced: adaptive decisions=162000; identical policy 7.1%; max|dpi| mean=0.060, median=0.049, 90th pct=0.119
+skewed: adaptive decisions=162000; identical policy 8.0%; max|dpi| mean=0.060, median=0.049, 90th pct=0.120

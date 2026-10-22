@@ -1,0 +1,16 @@
+
+S1 symmetric, g=.25
+  balanced  delayed acc rec=0.692 strat=0.691  d=-0.002 (MC SE 0.018) | exposure A/B/AB rec=[29.1 29.2 31.6] strat=[29.  29.1 31.9]
+  skewed    delayed acc rec=0.694 strat=0.688  d=-0.027 (MC SE 0.018) | exposure A/B/AB rec=[34.3 27.  28.7] strat=[34. 27. 29.]
+
+S2 b harder, g=.25
+  balanced  delayed acc rec=0.668 strat=0.668  d=-0.001 (MC SE 0.018) | exposure A/B/AB rec=[27.8 30.3 31.9] strat=[27.5 30.3 32.2]
+  skewed    delayed acc rec=0.656 strat=0.661  d=+0.020 (MC SE 0.018) | exposure A/B/AB rec=[33. 28. 29.] strat=[32.6 28.  29.4]
+
+S3 b harder, g=.50
+  balanced  delayed acc rec=0.754 strat=0.758  d=+0.022 (MC SE 0.018) | exposure A/B/AB rec=[28.2 30.2 31.5] strat=[28.1 30.2 31.7]
+  skewed    delayed acc rec=0.753 strat=0.753  d=+0.002 (MC SE 0.018) | exposure A/B/AB rec=[33.5 27.8 28.7] strat=[33.2 27.9 28.9]
+
+S4 slow learning, high het
+  balanced  delayed acc rec=0.533 strat=0.527  d=-0.024 (MC SE 0.018) | exposure A/B/AB rec=[28.6 29.2 32.2] strat=[28.4 29.1 32.5]
+  skewed    delayed acc rec=0.525 strat=0.531  d=+0.026 (MC SE 0.018) | exposure A/B/AB rec=[34.1 26.7 29.1] strat=[33.9 26.8 29.3]
