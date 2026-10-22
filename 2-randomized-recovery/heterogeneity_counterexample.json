@@ -1,0 +1,54 @@
+{
+  "scope": "Exact illustrative counterexample, not a fitted model or novelty claim.\n\nTwo equally prevalent learner types have fixed learning probabilities.\nAll begin unmastered; there is no loss. Perfectly observed competence is used\nto show that measurement error is not needed for the aggregation problem.\n",
+  "input_A_gains_fast_slow": [
+    0.4,
+    0.05
+  ],
+  "input_B_gains_fast_slow": [
+    0.25,
+    0.1
+  ],
+  "results": [
+    {
+      "previous_activities": "none",
+      "condition": "competence remains unmastered after all previous activities",
+      "fast_type_fraction": 0.5,
+      "next_A_gain": 0.225,
+      "next_B_gain": 0.175,
+      "B_minus_A_gain": -0.05
+    },
+    {
+      "previous_activities": "A",
+      "condition": "competence remains unmastered after all previous activities",
+      "fast_type_fraction": 0.3870967741935484,
+      "next_A_gain": 0.18548387096774194,
+      "next_B_gain": 0.15806451612903225,
+      "B_minus_A_gain": -0.027419354838709678
+    },
+    {
+      "previous_activities": "AA",
+      "condition": "competence remains unmastered after all previous activities",
+      "fast_type_fraction": 0.2851485148514851,
+      "next_A_gain": 0.1498019801980198,
+      "next_B_gain": 0.14277227722772276,
+      "B_minus_A_gain": -0.00702970297029703
+    },
+    {
+      "previous_activities": "BB",
+      "condition": "competence remains unmastered after all previous activities",
+      "fast_type_fraction": 0.4098360655737705,
+      "next_A_gain": 0.19344262295081968,
+      "next_B_gain": 0.16147540983606556,
+      "B_minus_A_gain": -0.031967213114754096
+    },
+    {
+      "previous_activities": "AAAA",
+      "condition": "competence remains unmastered after all previous activities",
+      "fast_type_fraction": 0.1372726851453425,
+      "next_A_gain": 0.09804543980086987,
+      "next_B_gain": 0.12059090277180137,
+      "B_minus_A_gain": 0.022545462970931504
+    }
+  ],
+  "conclusion": "At the same time and competence state, different prior activity histories give different marginal next-activity gains. A constant homogeneous competence kernel does not generally represent the mixture. This example does not show that every mixture is non-Markov, or that a correctly specified heterogeneous model is unidentified."
+}

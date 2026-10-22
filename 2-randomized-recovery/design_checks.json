@@ -1,0 +1,70 @@
+{
+  "reference_identification": {
+    "emission_rank": 4,
+    "states": 4,
+    "smallest_singular_value": 0.2605005627039017,
+    "max_exact_reconstruction_error": 2.220446049250313e-15,
+    "caveat": "Known/invariant full-column-rank measurement and positive initial states; independent randomized activity. Not claimed as a new theorem."
+  },
+  "endpoint_counterexample": {
+    "gains_first": [
+      0.2,
+      0.4
+    ],
+    "gains_second": [
+      0.4,
+      0.2
+    ],
+    "contrasts": [
+      0.2,
+      -0.2
+    ],
+    "common_two_activity_gain": 0.52,
+    "max_endpoint_difference": 0.0,
+    "one_activity_kernel_difference": 0.20000000000000007,
+    "scope": "Endpoint-only assessments with equal activity counts; both AB and BA orders fail here. Does not establish nonidentification when informative intermediate responses are retained."
+  },
+  "adaptive_support": {
+    "adaptive_probability_sum": 1.0,
+    "minimum_activity_probability": 0.25,
+    "max_reweighting_error": 2.7755575615628914e-17,
+    "scope": "Exact enumeration of a correctly specified model with sequential observed-history randomization. This illustrates support equivalence, not a general proof or finite-sample variance guarantee."
+  },
+  "buffer_policy_extrema": {
+    "min_probability": 0.06921373200442968,
+    "max_probability": 0.7454212454212455,
+    "min_counts_correct": [
+      [
+        15,
+        1,
+        2
+      ],
+      [
+        15,
+        0,
+        0
+      ]
+    ],
+    "max_counts_correct": [
+      [
+        3,
+        7,
+        8
+      ],
+      [
+        0,
+        7,
+        8
+      ]
+    ],
+    "scope": "All count configurations at exactly 18 retained responses; some may be unreachable under a particular scheduled design."
+  },
+  "recovery_implementation": {
+    "stored_likelihood_error": 0.0,
+    "latent_sum_error": 1.4210854715202004e-14,
+    "max_row_sum_error": 1.1102230246251565e-16,
+    "converged": true,
+    "likelihood_decreased": false,
+    "scope": "Arithmetic/likelihood check; does not prove global optimization or interval coverage."
+  }
+}
