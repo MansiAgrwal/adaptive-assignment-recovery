@@ -1,0 +1,16 @@
+N= 1000 random   homogeneous a reps=500 mean=+0.0101 bias=+0.0321(0.0003) sd=0.0069 se/sd=0.98 cov=0.002(0.002) covOwn=0.942 width=0.0264 rej0=0.316 conv=1.00 wald=1.00 agree=1.00
+N= 1000 random   homogeneous b reps=500 mean=-0.0001 bias=-0.0001(0.0003) sd=0.0060 se/sd=1.01 cov=0.948(0.010) covOwn=0.950 width=0.0235 rej0=0.052 conv=1.00 wald=1.00 agree=1.00
+N= 1000 random   mixture     a reps=500 mean=-0.0226 bias=-0.0006(0.0006) sd=0.0138 se/sd=0.99 cov=0.956(0.009) covOwn=0.952 width=0.0536 rej0=0.384 conv=1.00 wald=1.00 agree=1.00
+N= 1000 random   mixture     b reps=500 mean=-0.0017 bias=-0.0017(0.0006) sd=0.0129 se/sd=1.01 cov=0.950(0.010) covOwn=0.954 width=0.0512 rej0=0.050 conv=1.00 wald=1.00 agree=1.00
+N= 1000 adaptive homogeneous a reps=500 mean=+0.0203 bias=+0.0423(0.0002) sd=0.0051 se/sd=0.80 cov=0.000(0.000) covOwn=0.888 width=0.0159 rej0=0.988 conv=1.00 wald=1.00 agree=1.00
+N= 1000 adaptive homogeneous b reps=500 mean=-0.0027 bias=-0.0027(0.0002) sd=0.0048 se/sd=0.73 cov=0.800(0.018) covOwn=0.860 width=0.0139 rej0=0.200 conv=1.00 wald=1.00 agree=1.00
+N= 1000 adaptive mixture     a reps=500 mean=-0.0217 bias=+0.0003(0.0005) sd=0.0117 se/sd=0.99 cov=0.942(0.010) covOwn=0.944 width=0.0452 rej0=0.474 conv=1.00 wald=1.00 agree=1.00
+N= 1000 adaptive mixture     b reps=500 mean=+0.0006 bias=+0.0006(0.0006) sd=0.0129 se/sd=0.92 cov=0.918(0.012) covOwn=0.922 width=0.0465 rej0=0.082 conv=1.00 wald=1.00 agree=1.00
+N=  300 random   homogeneous a reps=500 mean=+0.0097 bias=+0.0317(0.0006) sd=0.0124 se/sd=1.01 cov=0.288(0.020) covOwn=0.954 width=0.0491 rej0=0.122 conv=1.00 wald=1.00 agree=1.00
+N=  300 random   homogeneous b reps=500 mean=+0.0006 bias=+0.0006(0.0005) sd=0.0111 se/sd=1.00 cov=0.938(0.011) covOwn=0.940 width=0.0437 rej0=0.062 conv=1.00 wald=1.00 agree=1.00
+N=  300 random   mixture     a reps=500 mean=-0.0233 bias=-0.0013(0.0011) sd=0.0255 se/sd=1.00 cov=0.942(0.010) covOwn=0.942 width=0.1004 rej0=0.116 conv=1.00 wald=1.00 agree=1.00
+N=  300 random   mixture     b reps=500 mean=+0.0007 bias=+0.0007(0.0011) sd=0.0249 se/sd=0.99 cov=0.952(0.010) covOwn=0.956 width=0.0962 rej0=0.048 conv=1.00 wald=1.00 agree=1.00
+N=  300 adaptive homogeneous a reps=500 mean=+0.0200 bias=+0.0420(0.0004) sd=0.0089 se/sd=0.85 cov=0.002(0.002) covOwn=0.914 width=0.0299 rej0=0.716 conv=1.00 wald=1.00 agree=1.00
+N=  300 adaptive homogeneous b reps=500 mean=-0.0030 bias=-0.0030(0.0004) sd=0.0085 se/sd=0.79 cov=0.862(0.015) covOwn=0.882 width=0.0262 rej0=0.138 conv=1.00 wald=1.00 agree=1.00
+N=  300 adaptive mixture     a reps=500 mean=-0.0238 bias=-0.0018(0.0010) sd=0.0234 se/sd=0.96 cov=0.942(0.010) covOwn=0.938 width=0.0887 rej0=0.150 conv=1.00 wald=1.00 agree=1.00
+N=  300 adaptive mixture     b reps=500 mean=+0.0004 bias=+0.0004(0.0010) sd=0.0231 se/sd=0.98 cov=0.956(0.009) covOwn=0.954 width=0.0892 rej0=0.044 conv=1.00 wald=1.00 agree=1.00
