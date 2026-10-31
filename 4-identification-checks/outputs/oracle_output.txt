@@ -1,0 +1,11 @@
+target contrasts: a -0.0220, b +0.0000
+random  : at-risk exposures for a, A by type [2.501 8.759], AB by type [2.502 8.763]
+          weights on fast type: A 0.160, AB 0.160 (baseline weight 0.400)
+          oracle homogeneous contrast a +0.0092 (composition +0.0312 + sorting +0.0000); b -0.0000
+          check acquisitions/(g*N): [0.999 0.998], [0.997 1.   ]
+adaptive: at-risk exposures for a, A by type [1.857 8.024], AB by type [3.783 9.766]
+          weights on fast type: A 0.134, AB 0.205 (baseline weight 0.400)
+          oracle homogeneous contrast a +0.0162 (composition +0.0300 + sorting +0.0082); b -0.0020
+          check acquisitions/(g*N): [0.999 1.004], [1.    0.997]
+analytic random N_rA = N_rAB for type 0: 2.499
+analytic random N_rA = N_rAB for type 1: 8.757

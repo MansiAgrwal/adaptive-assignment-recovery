@@ -12,13 +12,14 @@ Simulated learners practise two rules, *a* and *b*. Each trial uses one of three
 
 The quantity of interest is the **joint-minus-single gain**: how much more (or less) often rule *a* is learned after an AB activity than after an A activity.
 
-## Three steps
+## Four steps
 
 | Step | Question | Answer in these simulations |
 |---|---|---|
 | [1. Policy comparison](1-policy-comparison/) | Do two ways of remembering recent answers change which activities learners get, or how much they learn? | Rarely, and only slightly. Effects on delayed accuracy were indistinguishable from zero. |
 | [2. Randomized recovery](2-randomized-recovery/) | With one randomly assigned activity per person and tests before and after, can the effect be recovered? | Yes, without detectable bias, but imprecisely at N = 300. An exact example shows why this one-shot result does not carry over to repeated practice. |
 | [3. Adaptive pilot](3-adaptive-pilot/) | With repeated practice and adaptive assignment, does the analysis model or the assignment rule matter more? | The model. Ignoring fast/slow learner differences reversed the sign of the effect; allowing for them recovered it under both random and adaptive assignment. |
+| [4. Identification checks](4-identification-checks/) | How much of the one-type model's error follows from who is still at risk and which activities they receive, and what blocks existing identification theorems? | An exposure-weighted limit predicted the one-type model's mean estimate within .002 in all six conditions of a 3,000-dataset grid. Pairing user type with mastery state gives rank-deficient emission matrices in every structure checked. |
 
 ## Main result (step 3)
 

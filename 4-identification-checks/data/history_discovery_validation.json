@@ -1,0 +1,24 @@
+{
+  "discovery_selected": {
+    "stage": "discovery",
+    "n": 3000,
+    "capacity": 3,
+    "epsilon": 0.15,
+    "gain_scale": 1.0,
+    "comparison": "complete minus recency",
+    "metric": "AB",
+    "mean": 7.39,
+    "mcse": 0.3815533236093791
+  },
+  "independent_validation": {
+    "stage": "validation",
+    "n": 6000,
+    "capacity": 3,
+    "epsilon": 0.15,
+    "gain_scale": 1.0,
+    "comparison": "complete minus recency",
+    "metric": "AB",
+    "mean": 7.402,
+    "mcse": 0.27409097897456786
+  }
+}

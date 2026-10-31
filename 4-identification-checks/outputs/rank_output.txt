@@ -1,0 +1,9 @@
+simulation values      pattern (0, 1, 2): future-block rank L=1..8 [2, 4, 7, 7, 7, 7, 7, 7] | past-block rank [2, 4, 5, 6, 7, 7, 7, 7]  (hidden states = 8)
+simulation values      pattern (2,): future-block rank L=1..8 [2, 3, 4, 5, 6, 7, 7, 7] | past-block rank [2, 3, 3, 3, 3, 3, 3, 3]  (hidden states = 8)
+simulation values      pattern (0, 2): future-block rank L=1..8 [2, 4, 5, 7, 7, 7, 7, 7] | past-block rank [2, 4, 5, 5, 5, 5, 5, 5]  (hidden states = 8)
+simulation values      pattern (0, 1): future-block rank L=1..8 [2, 4, 6, 7, 7, 7, 7, 7] | past-block rank [2, 4, 6, 7, 7, 7, 7, 7]  (hidden states = 8)
+random generic gains   pattern (0, 1, 2): future-block rank L=1..8 [2, 4, 7, 7, 7, 7, 7, 7] | past-block rank [2, 4, 5, 6, 7, 7, 7, 7]  (hidden states = 8)
+random generic gains   pattern (2,): future-block rank L=1..8 [2, 3, 4, 5, 6, 7, 7, 7] | past-block rank [2, 3, 3, 3, 3, 3, 3, 3]  (hidden states = 8)
+random generic gains   pattern (0, 2): future-block rank L=1..8 [2, 4, 5, 7, 7, 7, 7, 7] | past-block rank [2, 4, 5, 5, 5, 5, 5, 5]  (hidden states = 8)
+random generic gains   pattern (0, 1): future-block rank L=1..8 [2, 4, 6, 7, 7, 7, 7, 7] | past-block rank [2, 4, 6, 7, 7, 7, 7, 7]  (hidden states = 8)
+max |difference| between the two both-mastered columns: 0.0
