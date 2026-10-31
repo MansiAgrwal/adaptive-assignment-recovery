@@ -1,0 +1,6 @@
+interaction random   target -0.0220  limit +0.0092 (comp +0.0312, sort +0.0000)  fitted +0.0083  fitted-limit -0.0009
+interaction adaptive target -0.0220  limit +0.0161 (comp +0.0300, sort +0.0081)  fitted +0.0181  fitted-limit +0.0020
+discrete    random   target -0.0220  limit -0.0149 (comp +0.0071, sort +0.0000)  fitted -0.0149  fitted-limit +0.0000
+discrete    adaptive target -0.0220  limit -0.0182 (comp +0.0071, sort -0.0033)  fitted -0.0194  fitted-limit -0.0012
+continuous  random   target -0.0220  limit -0.0120 (comp +0.0100, sort +0.0001)  fitted -0.0123  fitted-limit -0.0004
+continuous  adaptive target -0.0220  limit -0.0152 (comp +0.0101, sort -0.0033)  fitted -0.0154  fitted-limit -0.0002

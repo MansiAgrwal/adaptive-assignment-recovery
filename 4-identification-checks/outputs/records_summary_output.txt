@@ -1,0 +1,24 @@
+1. Mixture fits without an interval: 403 of 3000
+   random  : 323 of 1500; by condition (common shift, activity-by-type, continuous): 94, 106, 123 of 500 each
+   adaptive: 80 of 1500; by condition (common shift, activity-by-type, continuous): 18, 33, 29 of 500 each
+2. Reasons:
+   gain at bound: 396
+     slow type at lower bound: 295
+     fast type only: 101
+   no parameter at bound (converged=False): 7
+3. Mean homogeneous skill-a estimates (target -.022), 500 datasets of 120 users each:
+   interaction random +0.0083  adaptive +0.0181  shift +0.0098
+   discrete    random -0.0149  adaptive -0.0194  shift -0.0045
+   continuous  random -0.0123  adaptive -0.0154  shift -0.0031
+4. History (discovery, n=3000, capacity 3, exploration 0.15): complete minus recency AB exposure +7.390 trials (MC SE 0.382)
+4. History (validation, n=6000, capacity 3, exploration 0.15): complete minus recency AB exposure +7.402 trials (MC SE 0.274)
+   width ratio dense vs none, skill a: 0.843 (n=467)
+   width ratio dense_misspecified vs none, skill a: 0.726 (n=387)
+   width ratio probes vs none, skill a: 0.989 (n=466)
+   width ratio sparse vs none, skill a: 0.970 (n=464)
+   width ratio sparse vs probes, skill a: 0.992 (n=469)
+   dense              skill a: available 487/500, conditional coverage 0.928
+   dense_misspecified skill a: available 416/500, conditional coverage 0.846
+   none               skill a: available 468/500, conditional coverage 0.917
+   probes             skill a: available 478/500, conditional coverage 0.912
+   sparse             skill a: available 474/500, conditional coverage 0.924

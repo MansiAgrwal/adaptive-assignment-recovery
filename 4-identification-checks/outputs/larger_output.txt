@@ -1,0 +1,14 @@
+Part 1: block-matrix ranks, M=2 (bound M|C|-M+1)
+  free (8 states)              |Z|=16 bound 15  future L=1..9 [2, 4, 8, 14, 15, 15, 15, 15, 15]  past [2, 4, 8, 10, 10, 12, 14, 15, 15]  max |diff| full-mastery columns 0.0e+00
+  chain a<b<c (4 states)       |Z|= 8 bound  7  future L=1..9 [2, 3, 4, 6, 7, 7, 7, 7, 7]  past [2, 3, 4, 5, 6, 7, 7, 7, 7]  max |diff| full-mastery columns 0.0e+00
+  c needs a and b (5 states)   |Z|=10 bound  9  future L=1..9 [2, 4, 5, 8, 9, 9, 9, 9, 9]  past [2, 4, 5, 6, 7, 8, 9, 9, 9]  max |diff| full-mastery columns 0.0e+00
+Part 2: chain a<b<c, all users start empty, random assignment over the 5 activities, T=72, weights .4/.6
+  gains fast 0.20 slow 0.03: expected occasions per state fast [ 8.3  8.3 12.3], slow [40.5 20.7  8.6]; fast-type share among exposures at empty, {a}, {a,b}: [0.121 0.211 0.486] (population share .400)
+  gains fast 0.15 slow 0.05: expected occasions per state fast [11.1 11.  15.3], slow [29.6 21.3 14.4]; fast-type share among exposures at empty, {a}, {a,b}: [0.2   0.256 0.415] (population share .400)
+  gains fast 0.10 slow 0.05: expected occasions per state fast [16.5 15.6 18.1], slow [29.6 21.3 14.4]; fast-type share among exposures at empty, {a}, {a,b}: [0.271 0.328 0.456] (population share .400)
+Part 3: fast-type share in empty, {a}, {a,b} by session length (gains .20, .03)
+     36 trials: [0.171 0.407 0.796]
+     72 trials: [0.121 0.211 0.486]
+    144 trials: [0.097 0.12  0.205]
+    288 trials: [0.091 0.094 0.109]
+   1000 trials: [0.091 0.091 0.091]
